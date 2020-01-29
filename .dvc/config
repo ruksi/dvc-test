@@ -1,0 +1,4 @@
+['remote "mylocal"']
+url = /tmp/dvc-test-remote
+[core]
+remote = mylocal
