@@ -22,11 +22,11 @@ chardet==3.0.4            # via requests
 colorama==0.4.3           # via dvc
 configobj==5.0.6          # via dvc
 crcmod==1.7               # via oss2
-cryptography==2.8         # via azure-storage-common, paramiko
+cryptography==3.2         # via azure-storage-common, paramiko
 decorator==4.4.1          # via jsonpath-ng, networkx
 distro==1.4.0             # via dvc
 docutils==0.15.2          # via botocore
-dvc[all]==0.82.4
+dvc[all]==0.82.4          # via -r requirements.in
 flatten-json==0.1.7       # via dvc
 flufl.lock==3.2           # via dvc
 funcy==1.14               # via dvc
@@ -73,7 +73,6 @@ pytz==2019.3              # via google-api-core
 pyyaml==5.1.2             # via dvc, pydrive2
 requests==2.22.0          # via azure-storage-common, dvc, google-api-core, oss2
 rsa==4.0                  # via google-auth, oauth2client
-ruamel.yaml.clib==0.2.0   # via ruamel.yaml
 ruamel.yaml==0.16.6       # via dvc
 s3transfer==0.3.2         # via boto3
 shortuuid==0.5.0          # via dvc
